@@ -1,0 +1,26 @@
+{
+  "name": "lolicon",
+  "version": "1.0.0",
+  "description": "by forking this, let's say you forked a loli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awau/lolicon.git"
+  },
+  "keywords": [
+    "lolicon",
+    "fbi"
+  ],
+  "author": "sr229",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awau/lolicon/issues"
+  },
+  "homepage": "https://github.com/awau/lolicon#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
+}
