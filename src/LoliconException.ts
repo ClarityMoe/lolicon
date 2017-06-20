@@ -3,12 +3,17 @@
  * 
  * wank wank dicks dicks
  */
- 
-export class loliconException extends Error {
-    constructor(message) {
-        super(message);
-    }
-    public loliconException(message) {
-        return Promise.reject(new Error(this.message));
-    }
+  class LoliconException extends Error {
+
+/**
+ *  Returns out a Error
+ * @param {string} message error message
+ * @returns {Error}
+ */
+      public static Error (message) {
+          return new this (message);
+      }
+
 }
+
+export = LoliconException;
