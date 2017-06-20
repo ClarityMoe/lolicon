@@ -31,5 +31,3 @@ export module Lolicon {
         }
     }
 }
-
-export module Lolicon;
