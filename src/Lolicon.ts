@@ -18,7 +18,7 @@ export module Lolicon {
     class IDoables {
        public Intice () {
            //do nothing because weebs are already attracted to underaged anime girls
-           return;
+           return null;
        }
        private callTheFBI() {
             if (this.__is_danger === true ) {
