@@ -4,7 +4,7 @@
  * Me me big disappointment
  */
 
-import loliconException from './loliconException';
+import LoliconException from './LoliconException';
 import child_process = require('child_process');
 
 export module Lolicon {
@@ -26,7 +26,7 @@ export module Lolicon {
                     return stdout;
                 }); 
             } else {
-                return new loliconException(err);
+                return new LoliconException(err);
             }
         }
     }
