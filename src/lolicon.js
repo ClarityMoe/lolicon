@@ -17,7 +17,7 @@ class Lolicon {
                 return stdout;
             });
         } else {
-            return loliconException(err.stack);
+            return new loliconException(err.stack);
         }
     }
 }
