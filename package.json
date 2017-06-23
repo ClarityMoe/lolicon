@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "tslint": "^5.4.3",
-    "typescript": "^2.3.4"
+    "typescript": "^2.4.0"
   }
 }
