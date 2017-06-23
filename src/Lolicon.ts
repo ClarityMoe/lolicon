@@ -18,7 +18,7 @@ namespace Lolicon {
     class IDoables {
         
        public Intice () {
-           //do nothing because weebs are already attracted to underaged anime girls
+           //do nothing because weebs are already attracted to underage anime girls
            return null;
        }
        private callTheFBI (IDangerous : IAttribs) {
