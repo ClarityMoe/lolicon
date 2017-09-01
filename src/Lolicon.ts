@@ -12,7 +12,7 @@ namespace Lolicon {
     interface IAttribs {
         __is_danger : boolean,
        readonly minAge: 10,
-       readonly maxAge: 15
+       readonly maxAge: 16
     }
     
     class IDoables {
