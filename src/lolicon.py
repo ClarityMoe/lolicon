@@ -14,7 +14,7 @@ def intice():
     """do nothing because weebs are already attracted to underage anime girls"""
     pass
 
-def _callthefbi(age: int):
+def call_the_fbi(age: int):
     if age < 15:
         subprocess.run(["call_911"], capture_output=True)
     else:
@@ -22,7 +22,7 @@ def _callthefbi(age: int):
 
 def main():
     age = int(input("What's the girl's age? "))
-    _callthefbi(age)
+    call_the_fbi(age)
     
 if __name__ == "__main__":
     main()
