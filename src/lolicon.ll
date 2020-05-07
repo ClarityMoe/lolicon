@@ -11,7 +11,7 @@ define void @intice() {
   ret void ; Nothing because weebs are already attracted to underage anime girls
 }
 
-define void @call_the_fbi(i32 %age) {
+define void @the_fbi(i32 %age) {
   %check = icmp ult i32 %age, 15
   br i1 %check, label %call_911, label %fine
   call_911:
@@ -31,6 +31,6 @@ define i32 @main() {
   %buff = alloca i8, i32 3
   call i32 @read(i32 0, i8* %buff, i32 2)
   %age = call i32 @atoi(i8* %buff)
-  call void @call_the_fbi(i32 %age)
+  call void @the_fbi(i32 %age)
   ret i32 0
 }
