@@ -7,7 +7,7 @@ public class lolicon
 	void intice() {
         // Nothing because weebs are already attracted to underage anime girls
         return;
-    }
+    	}
     
 	public static void main(String[] args) throws IOException {
 	    System.out.println("What\'s the girl\'s age?");
