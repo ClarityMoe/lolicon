@@ -2,6 +2,9 @@ using System;
 using System.Diagnostics;
 
 class MainClass {
+  void intice() {
+    // Nothing because weebs are already attracted to underage anime girls
+  }
   public static void Main (string[] args) {
     Console.WriteLine("What\'s the girl\'s age?");
     int age = Convert.ToInt32(Console.ReadLine());
