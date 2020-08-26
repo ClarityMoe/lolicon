@@ -12,4 +12,5 @@ end
 
 println("What\'s the girl\'s age?")
 age = parse(Int32, readline())
+println(age)
 callthefbi(age)
