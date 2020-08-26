@@ -33,7 +33,3 @@ if let age = readLine() {
         loli.call_the_fbi(age: intedAge)
     }
 }
-
-
-
-
