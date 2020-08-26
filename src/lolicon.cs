@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-class MainClass {
+class lolicon {
   void intice() {
     // Nothing because weebs are already attracted to underage anime girls
   }
