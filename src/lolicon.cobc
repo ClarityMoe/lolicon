@@ -1,0 +1,18 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. LOLICON.
+
+DATA DIVISION.
+   WORKING-STORAGE SECTION.
+   01 AGE PIC 9(38). *> COBOL only allows up to 38 digits
+
+PROCEDURE DIVISION.
+    DIS.
+        DISPLAY "What's the girl's age? ".
+        ACCEPT AGE.
+        DISPLAY AGE.
+    IF (AGE < 15)
+        DISPLAY "Calling 911"
+    ELSE
+        DISPLAY "Probably just something weird happened"
+    END-IF
+STOP RUN.
