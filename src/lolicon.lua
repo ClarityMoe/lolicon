@@ -3,7 +3,7 @@ function intice()
 end
 
 function call_the_fbi(age)
-  if tonumber(age) < 15 then
+  if age < 15 then
     out = io.popen("call_911"):read("*a")
     print(out)
   else
@@ -13,8 +13,7 @@ end
 
 function main()
   print("What's the girl's age?")
-  age = io.read()
-  age = tonumber(age)
+  age = tonumber(io.read())
   call_the_fbi(age)
 end
 
