@@ -1,6 +1,6 @@
 import scala.sys.process._
 
-object lolicon {
+object Lolicon {
   def intice(): Int = {
     // Nothing because weebs are already attracted to underage anime girls
     return 0

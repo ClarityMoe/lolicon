@@ -1,4 +1,4 @@
-:- module lolicon.
+:- module Lolicon.
 :- interface.
 :- import_module io,int.
 

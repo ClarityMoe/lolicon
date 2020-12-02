@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class lolicon
+public class Lolicon
 {
 	void intice() {
         	// Nothing because weebs are already attracted to underage anime girls

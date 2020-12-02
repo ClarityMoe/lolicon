@@ -4,7 +4,7 @@ import subprocess
 # Wank wank dicks dicks
 
 class LoliconException(Exception):
-    """Raised when there is a fucking lolicon"""
+    """Raised when there is a fucking Lolicon"""
     pass
 
 # Lolicon Main

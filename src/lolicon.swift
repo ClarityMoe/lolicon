@@ -1,6 +1,6 @@
 //
-//  lolicon.swift
-//  lolicon
+//  Loliconswift
+//  Lolicon
 //
 //  Created by MiraiSubject on 26/08/2020.
 //
