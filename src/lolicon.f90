@@ -9,7 +9,7 @@ subroutine call_the_fbi(age)
     if (age < 15) then
         call execute_command_line ("call_911")
     else
-       print *, "Probably just something weird happened" 
+       print *, "Probably just something weird happened"
     end if
 end subroutine call_the_fbi
 
@@ -20,6 +20,6 @@ program lolicon
 
     print *, "What's the girl's age?"
     read(*,*) age
-    
+
     call call_the_fbi(age)
 end program lolicon
