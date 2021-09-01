@@ -13,7 +13,7 @@ void call_the_fbi(int age) {
     execute("call_911");
   } else {
     writeln("Probably just something weird happened.");
-  } 
+  }
 }
 
 void main() {

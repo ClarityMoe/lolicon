@@ -1,6 +1,6 @@
 /**
  *  Lolicon error handler
- * 
+ *
  * wank wank dicks dicks
  */
   class LoliconException extends Error {

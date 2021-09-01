@@ -23,6 +23,6 @@ def call_the_fbi(age: int):
 def main():
     age = int(input("What's the girl's age? "))
     call_the_fbi(age)
-    
+
 if __name__ == "__main__":
     main()

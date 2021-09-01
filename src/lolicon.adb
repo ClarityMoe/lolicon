@@ -4,7 +4,7 @@ with GNAT.OS_Lib; use GNAT.OS_Lib;
 
 procedure Lolicon is
     Age : Integer;
-    
+
     procedure Intice is
     begin
         -- Nothing because weebs are already attracted to underage anime girls.
@@ -23,7 +23,7 @@ procedure Lolicon is
              Output_File_Descriptor => Standout,
              Return_Code            => Result
             );
-            
+
             for Index in Arguments'Range loop
                 Free(Arguments(Index));
             end loop;

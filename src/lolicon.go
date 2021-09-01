@@ -11,12 +11,12 @@ func call_the_fbi (age int) string {
 	if (age < 15) {
 		cmd := exec.Command("call_911")
 		stdout, err := cmd.Output()
-		
+
 		if err != nil {
         	Println(err.Error())
         return ""
     	}
-		
+
 		Print(string(stdout))
 	} else {
 		return "Probably just something weird happened."

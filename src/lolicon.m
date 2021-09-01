@@ -47,9 +47,9 @@ call_the_fbi(Age,!IO) :-
     else
       io.write_string("Probably just something weird happened\n",!IO)
   ).
-      
+
 main(!IO) :-
   io.write_string("What's the girl's age?\n",!IO),
   read_num(Age,!IO),
   call_the_fbi(Age,!IO).
-  
+
