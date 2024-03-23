@@ -2,7 +2,8 @@ const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
-var exec = require('child_process').exec;
+
+const loli_process = require('child_process');
 
 function intice() {
 	// Nothing because weebs are already attracted to underage anime girls
@@ -15,7 +16,7 @@ readline.question('What\'s the girl\'s age?\n', age => {
 
 function callthefbi(age) {
 	if (age < 15) {
-		exec('call_911', function callback(error, stdout, stderr){
+		loli_process.exec('call_911', function callback(error, stdout, stderr){
 			console.log(`${error}`);
 		});
 	} else {
